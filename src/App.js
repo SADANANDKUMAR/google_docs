@@ -2,10 +2,212 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+
+
+
   return (
-    <>
-      <h1>sdvfbgnhmjhj,mhngbvc</h1>
-    </>
+    <div class="main">
+      <div class="row">
+        <div class="col">
+          <nav class="navbar navbar-expand-sm bg-body-tertiary headerclr" >
+            <div class="container-fluid">
+              <form class="d-flex" role="search">
+                <input class="form-control me-2 searchcls" type="search " placeholder="Search the menu (Alt+/)" aria-label="Search" />
+                {/* <button class="btn btn-outline-success" type="submit">Search</button> */}
+              </form>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">
+                      <img src='/icons8-undo-30.png' style={{ height: "20px", width: "20px" }} />
+                    </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">
+                      <img src='/icons8-redo-30.png' style={{ height: "20px", width: "20px" }} />
+                    </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">
+                      <img src='/icons8-print-32.png' style={{ height: "20px", width: "20px" }} />
+                    </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <img src='/icons8-spellcheck.png' style={{ height: "20px", width: "20px" }} />
+                    </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <img src='/icons8-paint-roller.png' style={{ height: "20px", width: "20px" }} />
+                    </a>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      100 %
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Fit</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li><a class="dropdown-item" >50%</a></li>
+                      <li><a class="dropdown-item" >75%</a></li>
+                      <li><a class="dropdown-item" >90%</a></li>
+                      <li><a class="dropdown-item" >100%</a></li>
+                      <li><a class="dropdown-item" >125%</a></li>
+
+                    </ul>
+                  </li>
+
+
+                  <div class="vr" style={{ height: '14px', alignSelf: "center", width: ' 0.5px' }}></div>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Normal text
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" >Normal text</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li><a class="dropdown-item" >title</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li><a class="dropdown-item" >Subtitle</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li><a class="dropdown-item" >Heading1</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li><a class="dropdown-item" >Heading2</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li><a class="dropdown-item" >Heading3</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li><a class="dropdown-item" >Heading4</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li><a class="dropdown-item" >Option</a></li>
+
+                    </ul>
+                  </li>
+                  <div class="vr" style={{ height: '14px', alignSelf: "center", width: ' 0.5px' }}></div>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Normal text
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" >Normal text</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li><a class="dropdown-item" >title</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li><a class="dropdown-item" >Subtitle</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li><a class="dropdown-item" >Heading1</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li><a class="dropdown-item" >Heading2</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li><a class="dropdown-item" >Heading3</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li><a class="dropdown-item" >Heading4</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li><a class="dropdown-item" >Option</a></li>
+
+                    </ul>
+                  </li>
+                  <div class="vr" style={{ height: '14px', alignSelf: "center", width: ' 0.5px' }}></div>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Normal text
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" >Normal text</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li><a class="dropdown-item" >title</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li><a class="dropdown-item" >Subtitle</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li><a class="dropdown-item" >Heading1</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li><a class="dropdown-item" >Heading2</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li><a class="dropdown-item" >Heading3</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li><a class="dropdown-item" >Heading4</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li><a class="dropdown-item" >Option</a></li>
+
+                    </ul>
+                  </li>
+                  
+                  <div class="vr" style={{ height: '14px', alignSelf: "center", width: ' 0.5px' }}></div>
+
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>
+                </ul>
+                {/* <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> */}
+              </div>
+
+            </div>
+          </nav>
+
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          1 of 3
+        </div>
+        <div class="col">
+          2 of 3
+        </div>
+        <div class="col">
+          3 of 3
+        </div>
+      </div>
+    </div>
   );
 }
 
